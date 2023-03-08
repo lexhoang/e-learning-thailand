@@ -1,0 +1,41 @@
+.title {
+    position: relative;
+    .title-content {
+        position: absolute;
+        top: 53%;
+        left: 5%;
+        // transform: translate(-50%, -50%);
+        h1 {
+            color: #3d1748;
+        }
+        h2 {
+            color: #3d1748;
+            font-weight: 100px;
+        }
+        h4 {
+            letter-spacing: 4px;
+            font-weight: 100px;
+        }
+        button{
+            border-radius:28px;
+            padding:4px 32px;
+            border: 2px solid #5c246d;
+            // animation: button-animation 1.1s ease-in-out infinite;
+            &:hover{
+transform: scale(1.1);
+transition: 1000ms transform;
+            }
+        }
+        // @keyframes button-animation {
+        //     0% {
+        //       transform: scale(1);
+        //     }
+        //     50% {
+        //       transform: scale(1.1);
+        //     }
+        //     100% {
+        //       transform: scale(1);
+        //     }
+        //   }
+    }
+}
